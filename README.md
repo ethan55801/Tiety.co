@@ -29,7 +29,7 @@ In repository Settings → Pages, select Deploy from a branch, then `main` and `
 
 ## Project brief and data
 
-The project brief form downloads a text file to the visitor's own device. It does not send an enquiry, contact an inbox, or save a customer record. The only local preference is the animation pause setting. See `DATABASE.md` for details.
+The project brief form prepares a text file that visitors can preview, copy, or save to their own device. It does not send an enquiry, contact an inbox, or save a customer record. Editing any field clears the prepared copy to prevent saving outdated details. The only local preference is the animation pause setting. Navigation remains available if scripts fail, and the decorative animation starts only when its pause control is ready. See `DATABASE.md` for details.
 
 ## Content and accessibility
 
