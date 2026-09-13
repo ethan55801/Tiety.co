@@ -33,6 +33,6 @@ The project brief form prepares a text file that visitors can preview, copy, or 
 
 ## Content and accessibility
 
-The site includes responsive navigation, native expandable service details and FAQs, scroll reveals, a floating hero, a motion pause control, and support for the device's reduced-motion preference. Scenarios describe possible projects; they are not claims about completed client work. The company long name and contact details still need owner confirmation and have not been invented.
+The site includes responsive navigation, native expandable service details and FAQs, scroll reveals, a floating hero, a motion pause control, and support for the device's reduced-motion preference. Scenarios describe possible projects; they are not claims about completed client work. Public contact channels are phone and WhatsApp at +66 63 802 9143 and Line ID `ethan55801`.
 
 The local `work/` folder retains previous versions and working archives and is excluded from Git. No passwords, access tokens, personal customer records, or environment secrets belong in the repository.
