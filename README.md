@@ -29,10 +29,10 @@ In repository Settings → Pages, select Deploy from a branch, then `main` and `
 
 ## Project brief and data
 
-The project brief form downloads a text file to the visitor's own device. It does not send an enquiry, contact an inbox, or save a customer record. The only local preference is the animation pause setting. See `DATABASE.md` for details.
+The project brief form prepares a text file that visitors can preview, copy, or save to their own device. It does not send an enquiry, contact an inbox, or save a customer record. Editing any field clears the prepared copy to prevent saving outdated details. The only local preference is the animation pause setting. Navigation remains available if scripts fail, and the decorative animation starts only when its pause control is ready. See `DATABASE.md` for details.
 
 ## Content and accessibility
 
-The site includes responsive navigation, native expandable service details and FAQs, scroll reveals, a floating hero, a motion pause control, and support for the device's reduced-motion preference. Scenarios describe possible projects; they are not claims about completed client work. The company long name and contact details still need owner confirmation and have not been invented.
+The site includes responsive navigation, native expandable service details and FAQs, scroll reveals, a floating hero, a motion pause control, and support for the device's reduced-motion preference. Scenarios describe possible projects; they are not claims about completed client work. Public contact channels are phone and WhatsApp at +66 63 802 9143 and Line ID `ethan55801`.
 
 The local `work/` folder retains previous versions and working archives and is excluded from Git. No passwords, access tokens, personal customer records, or environment secrets belong in the repository.
