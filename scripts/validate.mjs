@@ -11,7 +11,7 @@ for (const page of ['index.html', 'dist/index.html']) {
   for (const match of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
     const value = match[1];
     if (value.startsWith('#')) assert(ids.includes(value.slice(1)), 'Missing anchor ' + value);
-    else if (!/^(?:data:|https?:|mailto:)/.test(value)) await access(new URL(value, url));
+    else if (!/^(?:data:|https?:|mailto:|tel:)/.test(value)) await access(new URL(value, url));
   }
   for (const id of ['web', 'ai', 'it', 'network', 'contact']) assert(ids.includes(id));
   assert(html.includes('Nothing is sent or stored by this website.'));
